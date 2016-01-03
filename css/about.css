@@ -11,6 +11,9 @@
   top: 80px;
   font-family: "Open Sans", sans-serif; }
 
+i {
+  padding: 4px; }
+
 .navbar {
   border-radius: 0;
   font-family: "Open Sans", sans-serif;

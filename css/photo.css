@@ -6,13 +6,12 @@
   font-size: 30px;
   letter-spacing: 2px; }
 
+i {
+  padding: 4px; }
+
 .picture {
   position: relative;
-  top: 50px;
-  left: 85px; }
-
-.grid-item {
-  width: 600px; }
+  top: 50px; }
 
 .navbar {
   border-radius: 0;
