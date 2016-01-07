@@ -1,13 +1,14 @@
 $font-type: 'Open Sans', sans-serif;
+$font-type2: "adobe-garamond-pro";
 
 
 .title{
   position: relative;
   top: 50px;
-  font-family: $font-type;
-  font-weight: 400;
+  font-family: $font-type2;
+  font-weight: 700;
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 i{
@@ -22,9 +23,9 @@ i{
 
 .navbar {
     border-radius: 0;
-    font-family: $font-type;
+    font-family: $font-type2;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 @media (min-width: 768px) {

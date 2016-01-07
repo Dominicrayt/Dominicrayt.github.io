@@ -1,24 +1,24 @@
 .title {
   position: relative;
   top: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "adobe-garamond-pro";
+  font-weight: 700;
   font-size: 30px;
-  letter-spacing: 2px; }
+  letter-spacing: 4px; }
 
 .middlesection {
   position: relative;
   top: 80px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "adobe-garamond-pro"; }
 
 i {
   padding: 4px; }
 
 .navbar {
   border-radius: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "adobe-garamond-pro";
   font-weight: 400;
-  letter-spacing: 2px; }
+  letter-spacing: 5px; }
 
 @media (min-width: 768px) {
   .navbar .navbar-nav {
@@ -65,5 +65,29 @@ i {
 
 .navbar-new .navbar-toggle .icon-bar {
   background-color: #000; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+.footer {
+  position: relative;
+  top: 350px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5; }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+  margin: 20px 0; }
 
 /*# sourceMappingURL=about.css.map */
