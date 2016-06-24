@@ -11,20 +11,22 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/photo.css">
   <link rel="stylesheet" type="text/css" href="css/stickeyfooter.css">
-  <link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
-  <link rel="stylesheet" href="unslider-master/dist/css/unslider-dots.css">
+  <script src="js/imageloaded.js"></script>
+  <script src="js/masonry.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-  <script src="unslider-master/src/js/unslider.js"></script>
   <title>Photo</title>
 </head>
 <body>
+
+<!-- Top Section -->
   <div class="container">
     <div class="title text-center">
       <p>Dominic Trujillo</p>
       <p>Photographer</p>
     </div>
   </div>
+
 
   <div class="container">
     <!-- Static navbar -->
@@ -55,40 +57,78 @@
     </nav>
   </div>
 
+<!-- Middle Section -->
   <div class="container-fluid">
     <div class="picture">
-      <div class="my-slider">
-      	<ul>
-      		<li><img src="DomPic/DSC00431.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-      		<li><img src="DomPic/DSC00433.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-          <li><img src="DomPic/DSC00480.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-          <li><img src="DomPic/IMG_9373.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-          <li><img src="DomPic/WebsitePhoto1.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-          <li><img src="DomPic/Websitephoto2.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-          <li><img src="DomPic/Websitephoto5.jpg" class="img-responsive center-block" alt="Responsive image"></li>
-        </ul>
+      <div class="grid">
+        <div class="grid-item"><img src="DomPic/DSC00431.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/DSC00433.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/DSC00480.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/IMG_9373.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/WebsitePhoto1.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/Websitephoto2.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/Websitephoto5.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC1301.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC1307-2.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC1307.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC2471.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3002.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3013.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3035.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3082.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3367.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3370.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3374.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3377.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3379.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3434.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3437.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3441.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3451.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC3598.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC4107-Edit.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/_DSC4157-Edit.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/Dominic-18.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/Dominic-19.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/DSC00737.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/DSC00738.jpg" class="img-responsive center-block" alt="Responsive image"></div>
+        <div class="grid-item"><img src="DomPic/newphoto2/DSC00744.jpg" class="img-responsive center-block" alt="Responsive image"></div>
       </div>
     </div>
   </div>
 
+<!-- Footer -->
   <footer class="footer">
       <div class="container">
         <p class="text-muted">
           <a href="https://www.instagram.com/domomnom/"><i class="fa fa-instagram fa-lg"></i></a>
           <a href="https://vimeo.com/dominictrujillo"><i class="fa fa-vimeo fa-lg"></i></a>
           <a href="https://www.flickr.com/photos/127734428@N03/"><i class="fa fa-flickr fa-lg"></i></a>
-          <a href="https://www.youtube.com/channel/UC2jQUJtxG9fm41E47HMGA4A/feed"><i class="fa fa-youtube-play fa-lg"></i></a>
+          <a href="https://www.youtube.com/channel/UC2jQUJtxG9fm41E47HMGA4A"><i class="fa fa-youtube-play fa-lg"></i></a>
         </p>
       </div>
   </footer>
 
 
+<script type="text/javascript">
+  var elem = document.querySelector('.grid');
+  var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+  });
 
+  // element argument can be a selector string
+  //   for an individual element
+  var msnry = new Masonry( '.grid', {
+  // options
+  });
+
+  imagesLoaded( grid ).on( 'progress', function() {
+  // layout Masonry after each image loads
+  msnry.layout();
+});
+</script>
 </body>
 <script src="http://localhost:35729/livereload.js" ></script>
-<script>
-		jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
-		});
-	</script>
 </html>

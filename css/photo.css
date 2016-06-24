@@ -1,3 +1,5 @@
+.grid-item { width: 500px; }
+
 .title {
   position: relative;
   top: 50px;
@@ -9,9 +11,14 @@
 i {
   padding: 4px; }
 
+
+
 .picture {
   position: relative;
-  top: 50px; }
+  top: 50px;
+  left: 75px;
+
+}
 
 .navbar {
   border-radius: 0;
