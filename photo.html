@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/photo.css">
   <link rel="stylesheet" type="text/css" href="css/stickeyfooter.css">
-  <script src="js/imageloaded.js"></script>
-  <script src="js/masonry.js"></script>
+  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   <title>Photo</title>
@@ -123,6 +123,10 @@
   var msnry = new Masonry( '.grid', {
   // options
   });
+  imagesLoaded( grid ).on( 'progress', function() {
+  // layout Masonry after each image loads
+  msnry.layout();
+});
 </script>
 </body>
 <script src="http://localhost:35729/livereload.js" ></script>
