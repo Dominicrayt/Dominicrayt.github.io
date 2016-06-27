@@ -58,4 +58,13 @@
 .navbar-new .navbar-toggle .icon-bar {
   background-color: #000; }
 
+  .unslider-arrow{
+    position: fixed;
+    bottom: 20%;
+    color: #abadaf;
+  }
+  .unslider-arrow:hover{
+    color: #95022B;
+  }
+
 /*# sourceMappingURL=film.css.map */
