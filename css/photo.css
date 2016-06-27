@@ -9,6 +9,12 @@ html, body. div{
   padding: 0;
 }
 
+@media (min-width: @screen-lg-min) {
+    .picture{
+      left: 10%;
+    }
+}
+
 
 
 
