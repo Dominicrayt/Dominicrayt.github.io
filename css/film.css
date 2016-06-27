@@ -59,7 +59,7 @@
   background-color: #000; }
 
   .unslider-arrow{
-    position: fixed;
+    position: relative;;
     bottom: 20%;
     color: #abadaf;
   }
