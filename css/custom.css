@@ -11,14 +11,7 @@ body{
         display: none;
     }
 
-    .title {
-      z-index: 100;
-      color: #fff;
-      position: relative;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      font-size: 45px;
-      top: 400px; }
+    
 }
 
 video#bgvid {
