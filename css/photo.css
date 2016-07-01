@@ -3,20 +3,20 @@ html, body. div{
     padding: 0 !important;
     width: 100%;
 }
+
+@media screen and (min-device-width: 1880px) {
+    .picture{
+        position: relative;
+        left: 10% !important;
+    }
+
+
+}
 .grid-item { width: 500px; }
 
 .container-fluid{
   padding: 0;
 }
-
-@media (min-width: @screen-lg-min) {
-    .picture{
-      left: 10%;
-    }
-}
-
-
-
 
 .title {
   position: relative;
