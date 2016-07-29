@@ -21,6 +21,15 @@ html, body. div{
 
 
 }
+
+@media screen and (max-device-width: 411px) {
+    .picture{
+        position: relative;
+        left: 2% !important;
+    }
+
+
+}
 .grid-item { width: 500px; }
 
 .container-fluid{
